@@ -1,0 +1,136 @@
+
+
+ .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+ }
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+  }
+
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 0.6em;
+    text-decoration: none;
+    font-size: 0.85em;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+
+.foto{
+    background-image: url(portada.jpg);
+    
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.gif{
+    background-image: url(gif.gif);
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    body {
+        font-family: 'Roboto';font-size: 22px;
+        background-color: rgb(39, 39, 39);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+#news{
+    background-color: steelblue;
+    color:rgb(255, 255, 255);
+    font-family:'Roboto';font-size: 22px;
+ 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center  ;
+    margin-top: 0;
+}
+
+
+    .video{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5em;
+              
+        
+        text-align: center;
+
+    }
+    #newsletter {
+        padding: 20px;
+        color:snow;
+        text-align: center;
+        font-size: 30px;
+       
+      }
+      .container3 {
+        padding: 0;
+        background-color: rgb(155, 10, 10);
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        
+       
+      }
+      input[type=text], input[type=submit] {
+        width: 50%;
+        padding: 25px;
+        margin: 8px 0;
+        
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        
+        
+      }
+      .container4 {
+       
+        text-align: center;
+        width: 50%;
+        float: right;
+        
+       
+        
+       
+       
+      }
+
+      input[type=submit] {
+        background-color: rgb(155, 10, 10);
+        border: none;
+        color: rgb(236, 236, 236);
+        font-weight: bold;
+        font-family: 'Roboto';font-size: 20px;
+        
+        
+      }
+
+      input[type=submit]:hover {
+        opacity: 0.8;
+       
+      }
+
+    .footer {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(155, 10, 10);
+        color: white;
+        text-align: center;
+        font-size: 0.7em;
+      }
+
+     
